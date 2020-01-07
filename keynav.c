@@ -949,9 +949,9 @@ void cmd_start(char *args) {
   wininfo.center_cut_size = 3;
 
   /* Default colors to match dark themes */
-  //wininfo.red = 1.0;
-  //wininfo.green = 1.0;
-  //wininfo.blue = 1.0;
+  wininfo.red = 0.0;
+  wininfo.green = 1.0;
+  wininfo.blue = 0.0;
 
   if (ISACTIVE)
     return;
